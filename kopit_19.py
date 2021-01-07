@@ -157,7 +157,7 @@ r = requests.get('https://api.kawalcorona.com/')
 data = r.text
 dataJson = json.loads(data)
 
-telegram_bot = telepot.Bot('1434627853:AAFtTLIAzjhe_Sl_goX93WIPWaB8Bd_yHsM')
+telegram_bot = telepot.Bot('UR API KEY')
 print(telegram_bot.getMe)
 MessageLoop(telegram_bot, action).run_as_thread()
 print('Bot sedang berjalan...')
