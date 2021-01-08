@@ -198,7 +198,7 @@ j = requests.get('https://api.kawalcorona.com/indonesia/provinsi/')
 data2 = j.text
 dataProvi = json.loads(data2)
 
-telegram_bot = telepot.Bot('1456306147:AAHWlYqBhKRiwOTsyKngDS7R4TcMf3ZrUUM')
+telegram_bot = telepot.Bot('URR API KEY')
 print(telegram_bot.getMe)
 MessageLoop(telegram_bot, action).run_as_thread()
 print('Bot sedang berjalan...')
